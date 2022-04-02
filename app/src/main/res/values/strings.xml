@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JustChat</string>
+    <string name="send_otp">send otp</string>
+    <string name="enter_your_phone_number">Enter Phone Number</string>
+    <string name="splashscreenimage">splashscreenImage</string>
+    <string name="phone_verification">Phone Number Verification</string>
+    <string name="We_will_send_a">We will send a</string>
+    <string name="one_time_password">One Time Password</string>
+    <string name="splashscreen">splashscreen</string>
+    <string name="to_the_phone_number_you_provide">to the phone number you provide.</string>
+</resources>
