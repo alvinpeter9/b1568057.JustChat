@@ -1,81 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_shape"
     tools:context=".MainActivity">
+
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/applayout"
         android:background="#527066"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/img_1"
-            android:layout_gravity="left"/>
+            android:orientation="horizontal"
+            android:background="@color/green_700">
 
-            <LinearLayout
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="start"
+                android:src="@drawable/img_1"
+                tools:ignore="ImageContrastCheck" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:textAlignment="center">
 
-                <androidx.appcompat.widget.Toolbar
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    app:title="JustChat"
-                    app:titleTextColor="@color/white" />
-
-                <com.google.android.material.tabs.TabLayout
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
+                    android:text="JustChat"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/include"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginTop="40dp"
                     android:baselineAligned="false"
                     android:textAlignment="center"
                     app:tabGravity="fill"
-                    app:tabIndicator="@color/purple_500"
+                    android:background="@android:color/transparent"
+                    android:layout_below="@id/toolbar"
+                    app:tabIndicator="@color/green_500"
                     app:tabSelectedTextColor="@color/white"
                     app:tabTextColor="@color/white">
 
                     <com.google.android.material.tabs.TabItem
+                        android:id="@+id/chat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Chat" />
+                        android:text="Chats"/>
 
                     <com.google.android.material.tabs.TabItem
+                        android:id="@+id/status"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Status" />
+                        android:text="Status"/>
 
                     <com.google.android.material.tabs.TabItem
+                        android:id="@+id/calls"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Call" />
+                        android:text="Calls"/>
 
                 </com.google.android.material.tabs.TabLayout>
 
-            </LinearLayout>
-
-        </LinearLayout>
+        </RelativeLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
 
-
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
-        android:visibility="visible"
-        android:layout_marginTop="50dp"
+        android:id="@+id/fragmentcontainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="view_pager_widget">
+        android:layout_below="@id/applayout"
+        android:layout_marginTop="0dp" />
 
-    </androidx.viewpager.widget.ViewPager>
-
-</LinearLayout>
+</RelativeLayout>
