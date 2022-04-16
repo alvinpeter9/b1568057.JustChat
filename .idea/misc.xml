@@ -3,23 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1375" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.103" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable-v24/senderchatdrawable.xml" value="0.1475" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/account_edit.xml" value="0.1475" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/background_shape.xml" value="0.172" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/border.xml" value="0.1375" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/border.xml" value="0.1475" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/camera.xml" value="0.1475" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/eclipse.xml" value="0.1375" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.103" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.103" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1475" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.172" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/ic_left_arrow_6164.xml" value="0.1375" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/rectangle.xml" value="0.1375" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/messagebackgroun.xml" value="0.103" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/round_button.xml" value="0.1375" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/round_input.xml" value="0.1375" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/round_transparent_bg.xml" value="0.1375" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/drawable/round_transparent_bg.xml" value="0.1475" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_o_t_p.xml" value="0.22" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_otpactivity.xml" value="0.22135416666666666" />
-        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_set_profile.xml" value="0.22" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_profile.xml" value="0.21794871794871795" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_set_profile.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_specific_chat.xml" value="0.22" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_splash_screen.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_update_profile.xml" value="0.22" />
         <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/activity_verification.xml" value="0.22" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/callfragment.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/chatfragment.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/chatviewlayout.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/fragment_chats.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/recieverchatlayout.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/senderchatlayout.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/layout/statusfragment.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chatw/AndroidStudioProjects/justchat/app/src/main/res/menu/menu.xml" value="0.21794871794871795" />
       </map>
     </option>
   </component>

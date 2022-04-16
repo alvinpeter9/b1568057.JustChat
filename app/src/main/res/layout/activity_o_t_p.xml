@@ -23,15 +23,17 @@
             android:layout_marginTop="-2dp"
             android:src="@drawable/img" />
 
-        <ImageView
+
+        <ImageButton
             android:id="@+id/backBtn"
             android:layout_width="40dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="5dp"
-            android:scaleType="centerCrop"
             android:layout_gravity="start"
             android:layout_marginTop="-140dp"
-            android:src="@drawable/leftarrowwhite"/>
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/white" />
+
 
         <ImageView
             android:layout_width="250dp"
@@ -48,6 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
+                android:fontFamily="@font/raleway"
                 android:text="Verify"
                 android:textAlignment="center"
                 android:textColor="#2e2421"
@@ -59,6 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+2348102463399"
+                android:fontFamily="@font/raleway"
                 android:textAlignment="center"
                 android:textColor="#2e2421"
                 android:textSize="20sp"
@@ -72,6 +76,7 @@
             android:text="Enter the six digit OTP code to verify your \n Phone Number"
             android:textAlignment="center"
             android:textColor="#2e2421"
+            android:fontFamily="@font/raleway"
             android:textSize="15sp"
             android:textStyle="normal" />
 
@@ -221,6 +226,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/round_button"
                         android:text="Verify"
+                        android:fontFamily="@font/raleway"
                         android:textColor="@color/white"
                         android:textSize="16sp"
                         android:textStyle="bold|normal" />
@@ -247,6 +253,7 @@
                         android:layout_height="wrap_content"
                         android:text="Didn\'t receive the OTP?"
                         android:textColor="#2e2421"
+                        android:fontFamily="@font/raleway"
                         android:textSize="15sp"
                         android:textStyle="normal" />
 
@@ -256,8 +263,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:text="Resend OTP"
+                        android:fontFamily="@font/raleway"
                         android:textColor="#dfa962"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>

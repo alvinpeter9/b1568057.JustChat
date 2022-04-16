@@ -35,6 +35,7 @@
 
         <TextView
             android:text="@string/phone_verification"
+            android:fontFamily="@font/raleway"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -50,6 +51,7 @@
             android:layout_height="wrap_content">
             <TextView
                 android:text="@string/We_will_send_a"
+                android:fontFamily="@font/raleway"
                 android:textSize="15sp"
                 android:textStyle="normal"
                 android:textColor="#2e2421"
@@ -58,6 +60,7 @@
                 android:layout_height="wrap_content"/>
             <TextView
                 android:text="@string/one_time_password"
+                android:fontFamily="@font/raleway"
                 android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#2e2421"
@@ -69,6 +72,7 @@
         <TextView
             android:text="@string/to_the_phone_number_you_provide"
             android:textSize="15sp"
+            android:fontFamily="@font/raleway"
             android:textStyle="normal"
             android:textColor="#2e2421"
             android:layout_width="wrap_content"
@@ -116,6 +120,7 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/round_input"
                         android:ems="1"
+                        android:fontFamily="@font/raleway"
                         android:hint="@string/enter_your_phone_number"
                         android:inputType="phone"
                         android:minHeight="48dp"
@@ -133,6 +138,7 @@
 
                     <Button
                         android:id="@+id/sendotpBtn"
+                        android:fontFamily="@font/raleway"
                         android:text="@string/send_otp"
                         android:textStyle="bold|normal"
                         android:textSize="16sp"

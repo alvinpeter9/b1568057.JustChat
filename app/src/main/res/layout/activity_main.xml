@@ -22,9 +22,13 @@
             android:background="@color/green_700">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="137dp"
+                android:layout_height="132dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
                 android:layout_gravity="start"
+                android:layout_marginStart="-3dp"
+                android:layout_marginTop="-4dp"
                 android:src="@drawable/img_1"
                 tools:ignore="ImageContrastCheck" />
 
@@ -38,45 +42,48 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="JustChat"
+                    android:fontFamily="@font/raleway"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
             </androidx.appcompat.widget.Toolbar>
 
-                <com.google.android.material.tabs.TabLayout
-                    android:id="@+id/include"
-                    android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    android:layout_marginTop="40dp"
-                    android:baselineAligned="false"
-                    android:textAlignment="center"
-                    app:tabGravity="fill"
-                    android:background="@android:color/transparent"
-                    android:layout_below="@id/toolbar"
-                    app:tabIndicator="@color/green_500"
-                    app:tabSelectedTextColor="@color/white"
-                    app:tabTextColor="@color/white">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/include"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@id/toolbar"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:color/transparent"
+                android:baselineAligned="false"
+                android:textAlignment="center"
+                app:tabGravity="fill"
+                app:tabIndicator="@color/green_500"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextColor="@color/white">
 
-                    <com.google.android.material.tabs.TabItem
-                        android:id="@+id/chat"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Chats"/>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chats"/>
 
-                    <com.google.android.material.tabs.TabItem
-                        android:id="@+id/status"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Status"/>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status" />
 
-                    <com.google.android.material.tabs.TabItem
-                        android:id="@+id/calls"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Calls"/>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/calls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calls" />
 
-                </com.google.android.material.tabs.TabLayout>
+            </com.google.android.material.tabs.TabLayout>
 
         </RelativeLayout>
 
